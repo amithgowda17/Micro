@@ -4,7 +4,7 @@ class Dress{
 	
 	public static void main(String []args){
 	
-     	int numberOfDressShop;
+     	        int numberOfDressShop;
 		numberOfDressShop=26;
 		char colourOfDress;
 		colourOfDress='W';
