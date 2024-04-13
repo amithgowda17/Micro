@@ -4,7 +4,7 @@ class Laptop{
 	
 	public static void main(String []args){
 	
-	    int numberOfShowroom;
+	        int numberOfShowroom;
 		numberOfShowroom=20;
 		char seriesOfTheCompany;
 		seriesOfTheCompany='A';
