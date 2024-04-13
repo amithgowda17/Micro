@@ -32,6 +32,7 @@ class Laptop{
 		System.out.println("gst of the shop is==="+gstOfTheShop);
 		System.out.println("is shop available==="+isShopAvailable);
 		System.out.println("company name of the laptop is==="+laptopCompanyName);
+	
 	}
 }
 		
