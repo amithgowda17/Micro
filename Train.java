@@ -13,6 +13,7 @@ class Train{
 	static String trainName="Wadeyaar Express";
 	
 public static void main(String []args){
+	
 	System.out.println("the total number of train is==="+totalTrain);
 	System.out.println("the train series is==="+trainSeries);
 	System.out.println("the ticket number is==="+ticketNumber);
