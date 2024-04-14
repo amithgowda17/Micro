@@ -17,7 +17,7 @@ class Buttons{
 	    
 		if(seriesOfTheButtons=='A'){
 		System.out.println("the series of the button is===="+seriesOfTheButtons);
-	    }else{
+	        }else{
 			System.out.println("the series doesnot matched");
 		}
 		
