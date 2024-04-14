@@ -16,15 +16,15 @@ class Paper{
 		}
 		System.out.println("total number of doesn't matched");
 		
-	    if(seriesOfTheSheet=='a'){
+	        if(seriesOfTheSheet=='a'){
 		System.out.println("the series of the sheet is===="+seriesOfTheSheet);
-	    }
+	        }
 		
 		if(maxPage==100){
 			System.out.println("paper reached maximum limit");
 		}
 
-	    if(bookNumber==5674){
+	        if(bookNumber==5674){
 			 System.out.println("book number is succesfully verified");
 		 }
 
@@ -44,7 +44,7 @@ class Paper{
 			System.out.println("gst succesfully matched");
 		}
 
-        if(ownerName=="Ravi"){
+                if(ownerName=="Ravi"){
 			System.out.println("owner name sucessfully matched as=="+ownerName);
 		}
 	}
