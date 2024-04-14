@@ -17,9 +17,9 @@ class Mobile{
 		}
 		System.out.println("total number of mobiles available is==="+numberOfMobiles);
 	   
-	    if(seriesOfTheMobile=='a'){
+	        if(seriesOfTheMobile=='a'){
 		    System.out.println("the series of the mobile is===="+seriesOfTheMobile);
-	    }
+	        }
 		
 		if(storage==64){
 			System.out.println("internal storage of the mobile is==="+storage);
@@ -41,12 +41,12 @@ class Mobile{
 			System.out.println("the cost of the mobile is=="+costOfTheMobile);
 		}
 	
-    	if(gstOfTheMobile==200.978617d){
+    	        if(gstOfTheMobile==200.978617d){
 			System.out.println("gst succesfully matched");
 		}
 		System.out.println("gst of the mobile doesnot matched");
     
-        if(companyName=="Samsung"){
+                if(companyName=="Samsung"){
 			System.out.println("customer purchased the samsung phone sucessfully ");
 		}
 	}
