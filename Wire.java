@@ -3,7 +3,7 @@ class Wire{
 	public static void main(String []args){
 		
 		int noOfWire=4;
-        String colourOfWire="Red";	
+                String colourOfWire="Red";	
 		
 		if(noOfWire==4 || colourOfWire=="Red"){
 			
