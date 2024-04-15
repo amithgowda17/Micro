@@ -40,6 +40,5 @@ class Blade{
 			default:bladeType="invalid";
 			
 		}System.out.println("the selected dish is==="+bladeType);
-	
 	}
 }
