@@ -18,9 +18,9 @@ class Shops{
 			System.out.println("total number of shops doesnot matched");
 		}
 	   
-	    if(seriesOfTheShop=='A'){
+	        if(seriesOfTheShop=='A'){
 		System.out.println("the series of the shop is===="+seriesOfTheShop);
-	    }else{
+	        }else{
 			System.out.println("the series of the shop is==="+seriesOfTheShop);
 		}
 		
@@ -62,7 +62,7 @@ class Shops{
         
 		if(shopName=="Vinayaka Stores"){
 			System.out.println("the name of the shop is==="+shopName);
-	    }else{
+	        }else{
 		System.out.println("shop name doesnot matched");
 		}
 	

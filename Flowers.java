@@ -18,9 +18,9 @@ class Flowers{
 			System.out.println("total number of shops doesnot matched");
 		}
 	   
-	    if(seriesOfTheFlower=='C'){
+	        if(seriesOfTheFlower=='C'){
 		System.out.println("the series of the flower is===="+seriesOfTheFlower);
-	    }else{
+	        }else{
 			System.out.println("the series doesnot matched");
 		}
 		
@@ -62,7 +62,7 @@ class Flowers{
         
 		if(flowerName=="Rose"){
 			System.out.println("the name of the flower is==="+flowerName);
-	    }else{
+	        }else{
 		System.out.println("flower name doesnot matched");
 		}
 	

@@ -12,14 +12,14 @@ class Flight{
 		double gstOfTheTicket=5000.0172676d;
 		String companyName="Jet Airways";
 	
-       	if(numberOfFlights==30){
+       	        if(numberOfFlights==30){
 			System.out.println("total number of flights==="+numberOfFlights);
 		}
 		System.out.println("total number of flights not available");
 	    
 		if(seriesOfTheFlight=='a'){
 		    System.out.println("the series of the flight is===="+seriesOfTheFlight);
-	    }
+	        }
 		
 		if(storageCapacity==150){
 			System.out.println("capacity of the flight==="+storageCapacity);
@@ -46,7 +46,7 @@ class Flight{
 		}
 		System.out.println("gst of the ticket doesnot matched");
 
-        if(companyName=="Jet Airways"){
+                if(companyName=="Jet Airways"){
 			System.out.println("customer succesfully purchased jet airways flight ticket");
 		}
 	}
