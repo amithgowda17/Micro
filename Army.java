@@ -3,8 +3,8 @@ class Army{
 	public static void main(String []args){
 
 		int noOfPersons=200;
-        String armyType="Cammandos";
-        char armySeries='Z';	
+                String armyType="Cammandos";
+                char armySeries='Z';	
 
 		if(noOfPersons==200 || armyType=="Cammandos" || armySeries=='Z'){
 
