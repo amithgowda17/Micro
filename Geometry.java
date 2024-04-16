@@ -22,7 +22,5 @@ class Geometry{
 			 
 			System.out.println("Invalid entry");
 		}
-			 
-    }
-
+	}
 }
