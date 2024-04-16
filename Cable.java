@@ -16,12 +16,12 @@ class Cable{
 		
 		if(cableId!=45 && cableColour=="Black"){
 		 
-		 System.out.println("cable is verified successfully");
+		   System.out.println("cable is verified successfully");
 		 
-		 }else{
+		}else{
 			 
 			System.out.println("Invalid entry");
-		}
+	        }
 			 
     }
 
