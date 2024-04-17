@@ -6,7 +6,6 @@ class Bed{
    public static void bedNumber(){
 	    owner();
         System.out.println("total number of bed is=="+noOfBed);
-   
    }
    
    public static void owner(){
