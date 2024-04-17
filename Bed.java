@@ -11,4 +11,5 @@ class Bed{
    public static void owner(){
 	   System.out.println("name of the owner is=="+ownerName);
    }
+
 }
