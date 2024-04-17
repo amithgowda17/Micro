@@ -5,7 +5,7 @@ class Drinks{
 		 int noOFBottles=10;
 		 String drinkType="Juice";
 		 
-		 if(noOFBottles==11 || drinkType=="Coco Cola"){
+		if(noOFBottles==11 || drinkType=="Coco Cola"){
 		 
 		 System.out.println("invalid");
 		 
