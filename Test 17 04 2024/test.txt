@@ -12,7 +12,7 @@
 3) define class
    
    class is a keyword and it is a blueprint that object follows and it can be declared as
-class 0bjectName{}
+class ObjectName{}
 
 4) explain datatypes and types of datatypes and flow types
    
