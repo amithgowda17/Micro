@@ -5,6 +5,5 @@ class FlutesRunner{
 		System.out.println("number of brushs is==="+Brushs.noOfBrushs);
 		Brushs.brushDeatils();
 		System.out.println("number of brushs is==="+Brushs.noOfBrushs);
-		
 	}
 }
