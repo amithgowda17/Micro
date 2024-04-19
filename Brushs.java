@@ -6,8 +6,6 @@ class Brushs{
 		
 		noOfBrushs=20;
 		Trunks.trunkDetails();
-		
 		System.out.println("trunk owner name is==="+Trunks.trunkOwnerName);
-		
 	}
 }
