@@ -7,6 +7,5 @@ class Tap{
 		noOfTaps=10;
 		Flute.totalFlutes();
 		
-		
 	}
 }

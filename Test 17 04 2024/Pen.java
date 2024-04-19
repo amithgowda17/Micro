@@ -5,7 +5,7 @@ class Pen{
 	public static void main(String []args){
 		
 		int noOfPens=10;
-	    int[] price={10,15,20,15,15,20,10,10,20,15};
+	        int[] price={10,15,20,15,15,20,10,10,20,15};
 		String ownerName="Girish";
 		
 		if(noOfPens==10 && ownerName=="Girish"){
