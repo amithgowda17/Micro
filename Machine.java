@@ -6,18 +6,14 @@ class Machine{
 		char[] machineSeries={'A','C','X','Z','S','L','B','A'};
 		
 		for(int i=5;i<=noOfMachine.length;i++){
-		    
-	        System.out.println("number of bullet is=="+noOfMachine[i]);
+		    System.out.println("number of bullet is=="+noOfMachine[i]);
 			break;
 		}
 	    
-	    for(int i=3;i<=machineSeries.length;i++){
-		  
-		    System.out.println("series of the key is==="+machineSeries[i]);
+	        for(int i=3;i<=machineSeries.length;i++){
+		  System.out.println("series of the key is==="+machineSeries[i]);
 		    break;
-		  
-		  
-		}
+		  }
 	
 	}
 	
