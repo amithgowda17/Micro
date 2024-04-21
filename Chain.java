@@ -10,7 +10,7 @@ class Chain{
 	public static void chainDetails(double gstOfChain,String ownerName){
 		
 		System.out.println("gst of chain is==="+gstOfChain);
-        System.out.println("chain owner name is=="+ownerName);		
+                System.out.println("chain owner name is=="+ownerName);		
 	
 	}
 
