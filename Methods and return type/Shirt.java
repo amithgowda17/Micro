@@ -11,5 +11,4 @@ class Shirt{
 		char[] sizeVaries={'X','L','M','X'};
 		return sizeVaries;
 	}
-
 }
