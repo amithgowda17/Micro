@@ -21,6 +21,5 @@ class RefrigeratorRunner{
 		System.out.println("cost of the refrigerator is==="+ref.cost);
 		System.out.println("gst of the refrigerator is==="+ref.gst);
 		
-			
 	}
 }
