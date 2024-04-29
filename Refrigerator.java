@@ -27,5 +27,4 @@ class Refrigerator{
 		companyName=name;
 		System.out.println("name of the company is==="+companyName);
 	}
-	
 }
