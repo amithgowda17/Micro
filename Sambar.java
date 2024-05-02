@@ -1,7 +1,7 @@
 class Sambar{
 	
     public static int noOfSamabars=10;
-	public static String sambarName="Mutton Sambar";
+    public static String sambarName="Mutton Sambar";
 	
     public static int total(){
 		
@@ -16,9 +16,9 @@ class Sambar{
 			return noOfSamabars;
 			
 		}
-	}
+   }
 	
-	public static String name(){
+    public static String name(){
 		
 		if (sambarName=="Bele Sambar"){
 			
