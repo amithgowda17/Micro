@@ -16,7 +16,7 @@ class Sambar{
 			return noOfSamabars;
 			
 		}
-   }
+    }
 	
     public static String name(){
 		
