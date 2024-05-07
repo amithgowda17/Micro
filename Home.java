@@ -16,7 +16,7 @@ class Home{
 	}
 	
 	public void homeAddress(String address){
-		
+		this.homeDetails(6);
 		this.address=address;
 		System.out.println("address of the home is==="+this.address);
 	}
