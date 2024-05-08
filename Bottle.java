@@ -1,40 +1,39 @@
 class Bottle{
 	
-	static int totalBottles;
-	static boolean isWaterAvailable;
-	static String bottleContains;
+	public Bottle(){
+		
+		System.out.println("This is no argument constructor");
+	}
 	
-	public static void setBottleTotal(int total){
-		System.out.println("total no of bottles in set method==="+total);
-		totalBottles=total;
+	public Bottle(int noOfBottles){
+		System.out.println("number of bottles are==="+noOfBottles);
+	}
+	
+	public Bottle(int noOfBottles,long ownerNumber){
+		System.out.println("the details of bottle are noOfBottles==="+noOfBottles+"and ownerNumber==="+ownerNumber);
 		
 	}
 	
-	public static void setWaterAvailability(boolean available){
-		System.out.println("is water available in set method==="+available);
-		isWaterAvailable=available;
-		
+	public Bottle(int noOfBottles,long ownerNumber,char series){
+		System.out.println("the details of bottle are noOfBottles==="+noOfBottles+"and ownerNumber==="+ownerNumber+" and series==="+series);
 	}
 	
-	public static void setStorageDetails(String store){
-		System.out.println("bottle contains in set method is==="+store);
-		bottleContains=store;
-		
+	public Bottle(int noOfBottles,long ownerNumber,char series,float cost){
+		System.out.println("the details of bottle are noOfBottles==="+noOfBottles+"and ownerNumber==="+ownerNumber+" and series==="+series+" and cost==="+cost);
+
 	}
 	
-	public static int getBottleTotal(){
-		System.out.println("total bottles in get method is==="+totalBottles);
-		return totalBottles;
+	public Bottle(int noOfBottles,long ownerNumber,char series,float cost,double gst){
+		System.out.println("the details of bottle are noOfBottles==="+noOfBottles+"and ownerNumber==="+ownerNumber+" and series==="+series+" and cost==="+cost+" and gst==="+gst);
 	}
 	
-	public static boolean getisWaterAvailable(){
-		System.out.println("is water available in get method==="+isWaterAvailable);
-		return isWaterAvailable;
+	public Bottle(int noOfBottles,long ownerNumber,char series,float cost,double gst,boolean ifWaterAvailable){
+		System.out.println("the details of bottle are noOfBottles==="+noOfBottles+"and ownerNumber==="+ownerNumber+" and series==="+series+" and cost==="+cost+" and gst==="+gst+" and ifwateravailable==="+ifWaterAvailable);
 	}
 	
-	public static String getStorageDetails(){
-		System.out.println("bottle contains in get method is==="+bottleContains);
-		return bottleContains;
+	public Bottle(int noOfBottles,long ownerNumber,char series,float cost,double gst,boolean ifWaterAvailable,String bottleContains){
+		System.out.println("the details of bottle are noOfBottles==="+noOfBottles+"and ownerNumber==="+ownerNumber+" and series==="+series+" and cost==="+cost+" and gst==="+gst+" and ifwateravailable==="+ifWaterAvailable+" and bottle contains==="+bottleContains);
 	}
+	
 	
 }
