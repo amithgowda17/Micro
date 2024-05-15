@@ -1,21 +1,21 @@
 class Car{
 	
-	public String companyName;
-	public Engines engine;
+	public String model;
+	public String brand;
+	public Details detail;
 	
-	public void carDetails(String companyName,Engines engine){
+	public void display(String model,String brand,Details detail){
 		
-		System.out.println("company name of the car is===="+companyName);
-		System.out.println("engine cc of the car is==="+engine.cc);
-		System.out.println("varient of the car is===="+engine.varient);
-		System.out.println("====================");
+		this.model=model;
+		this.brand=brand;
+		this.detail=detail;
 		
-		this.companyName=companyName;
-		this.engine=engine;
+		System.out.println("name=="+detail.name);
+		System.out.println("phoneNumber=="+detail.phoneNumber);
+		System.out.println("adress=="+detail.address);
+		System.out.println("brand=="+brand);
+		System.out.println("model=="+model);
 		
-		System.out.println("company name of the car is===="+this.companyName);
-		System.out.println("engine cc of the car is==="+this.engine.cc);
-		System.out.println("varient of the car is===="+this.engine.varient);
 		
 		
 	}
