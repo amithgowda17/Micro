@@ -5,11 +5,9 @@ class Car{
 	public Details detail;
 	
 	public void display(String model,String brand,Details detail){
-		
 		this.model=model;
 		this.brand=brand;
 		this.detail=detail;
-		
 		System.out.println("name=="+detail.name);
 		System.out.println("phoneNumber=="+detail.phoneNumber);
 		System.out.println("adress=="+detail.address);
