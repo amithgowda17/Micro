@@ -15,8 +15,6 @@ class Car{
 		System.out.println("model=="+model);
 		
 		
-		
 	}
-	
 	
 }
