@@ -22,8 +22,8 @@ class MatchBox{
 	 
 	public static void main(String [] args){
 		name();
-        total();
-        available(true);		
+                total();
+                available(true);		
 		
 	}
 	 
