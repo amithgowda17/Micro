@@ -16,7 +16,7 @@ class Bridge{
 	 
 	public static void available(boolean ifAvailable){
 		boolean ifBridgeAvailable=ifAvailable;
-		 System.out.println("if available==="+ifBridgeAvailable);
+		System.out.println("if available==="+ifBridgeAvailable);
 		 
 	}
 	 
