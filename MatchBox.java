@@ -16,7 +16,7 @@ class MatchBox{
 	 
 	public static void available(boolean ifAvailable){
 		boolean ifMatchBoxAvailable=ifAvailable;
-		 System.out.println("if available==="+ifMatchBoxAvailable);
+		System.out.println("if available==="+ifMatchBoxAvailable);
 		 
 	}
 	 
@@ -26,5 +26,4 @@ class MatchBox{
                 available(true);		
 		
 	}
-	 
 }
