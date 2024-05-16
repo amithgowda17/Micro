@@ -26,5 +26,4 @@ class Transformer{
                 available(true);		
 		
 	}
-	 
 }
