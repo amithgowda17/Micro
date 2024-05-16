@@ -16,15 +16,14 @@ class MatchBox{
 	 
 	public static void available(boolean ifAvailable){
 		boolean ifMatchBoxAvailable=ifAvailable;
-		 System.out.println("if available==="+ifMatchBoxAvailable);
+		System.out.println("if available==="+ifMatchBoxAvailable);
 		 
 	}
 	 
 	public static void main(String [] args){
 		name();
-        total();
-        available(true);		
+                total();
+                available(true);		
 		
 	}
-	 
 }

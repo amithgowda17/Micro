@@ -16,14 +16,14 @@ class Bridge{
 	 
 	public static void available(boolean ifAvailable){
 		boolean ifBridgeAvailable=ifAvailable;
-		 System.out.println("if available==="+ifBridgeAvailable);
+		System.out.println("if available==="+ifBridgeAvailable);
 		 
 	}
 	 
 	public static void main(String [] args){
 		name();
-        total();
-        available(true);		
+                total();
+                available(true);		
 		
 	}
 	 
