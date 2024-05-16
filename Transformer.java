@@ -16,14 +16,14 @@ class Transformer{
 	 
 	public static void available(boolean ifAvailable){
 		boolean ifElectricityAvailable=ifAvailable;
-		 System.out.println("if available==="+ifElectricityAvailable);
+		System.out.println("if available==="+ifElectricityAvailable);
 		 
 	}
 	 
 	public static void main(String [] args){
 		name();
-        total();
-        available(true);		
+                total();
+                available(true);		
 		
 	}
 	 
