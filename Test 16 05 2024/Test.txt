@@ -1,0 +1,203 @@
+
+1)what is java explain with a flow diagram
+
+>Java is a object oriented programming language,
+it was developed by James gosling and it is owned by oracle company
+
+Java consists of JDK,JRE and JVM
+    JDK
+		>It stands for java Development kit
+		>It consists of javac 
+		>It provides kit to develop java applications,
+		there are many different versions in taht jdk 1.8 is stable version
+	   
+    
+	JRE
+		>It stands for Java run time environment
+		>It consists of libraries and JVM
+
+	JVM
+		>JVM stands for Java virtual machine
+		>It is not present in reality
+		>JVM search for main method signature to start excution of java program
+
+2)what is wora ,platform indepent and .class flow diaggram
+
+>Wora is write once run anywhere,because we can execute .class file in any operating system 
+>byte code(.class) has the ability to run in any operating system because of that java
+is platform independent
+
+3)Types of datatypes
+
+>There are 2 types
+1)primitive datatype           2)Non primitive datatype
+byte                             String
+short                            Array
+int                              Custom classes
+long
+char
+boolean
+float
+double
+
+4)explain methods and constructors with example
+>methods takes set of arguments perform some operation to get desired outcome
+>methods consists of 2 types
+>Static and instance method
+>static method are the methods which doesn't accept instance variables
+
+Ex:public static void methodName(){
+	
+}
+>Instance methods are the ones which we have to create instance of that class in order acess that,
+it accept both static and instance variables
+Ex:
+public void method(){
+	
+}
+ 
+>Constructor is a special type of method which doesn't return any value
+Constructor is classified as default , noargument ,parameterized constructor
+Ex:
+class Bonda{
+	
+	public int noOfBonda;
+	
+	public Bonda(int total){
+		this.noOfBonda=total;
+		System.out.println("total==="+noOfBonda);
+	}
+	
+}
+
+class BondaRunner{
+	
+	public static void main(String []args){
+		Bonda bonda=new Bonda(10);
+	}
+}
+
+
+5)explain polymorysim by using costructor
+
+>Polymorphysim is one of object oriented principle
+>It defined as same name with different forms
+>It consists 2 types:
+>Overloading and overriding
+
+Method or constructor overloading means having same method name or constructor 
+but with different parameters 
+
+Ex:
+class Bonda{
+	
+	public Bonda(int total){
+		System.out.println("total==="+total);
+	}
+	
+	public Bonda(int total,String ownerName){
+		System.out.println("total=="+total+"owner name==="+ownerName);
+	}
+}
+
+class BondaRunner{
+	
+	public static void main(String []args){
+		Bonda bonda=new Bonda(10);
+		Bonda bajji=new Bonda(100,"Ravi");
+	}
+}
+
+6)explain switch cases with example
+
+>class Week{
+	
+	public static void main(String []args){
+		
+		int noOfTheDay=5;
+		String dayName="Friday";
+		
+		switch(noOfTheDay){
+		
+		 case 1:dayName="Monday";
+		 break;
+		 
+		 case 2:dayName="Tuesday";
+		 break;
+		 
+		 case 3:dayName="Wednesday";
+		 break;
+		 
+		 case 4:dayName="Thursday";
+		 break;
+		 
+		 case 5:dayName="Friday";
+		 break;
+		 
+		 case 6:dayName="Saturday";
+		 break;
+		 
+		 case 7:dayName="Sunday";
+		 break;
+		 
+		 default:dayName="Invalid";
+		 break;
+		}
+		System.out.println("the name of the particular day is=="+dayName);
+	}
+}
+
+
+
+7)explain 10 keywords
+
+>class is a keyword which acts as the statring point of the java program and the declaration of class is
+class ObjectName{}
+
+>public is an access specifier which allows to access variables and methods inside and outside the class
+>if else is a condition to get desired outcome
+>default gives default value when no other value matches or present
+>this refers to current object of the classand it mainly used to remove confussion between
+ class attributes and attributes in methods
+>new is a keyword used create instance of the class
+>for loop
+>Switch
+>return --which return a value
+>break-- stop the execution of remaining part when it is called
+>static is keyword which is used declare global variable and static method
+
+
+
+8)expalin this chaining
+
+this refers to current object of the classand it mainly used to remove confussion between
+ class attributes and attributes in methods
+
+class Bonda{
+	
+	public int noOfBonda;
+	public String name
+
+	public Bonda(int total){
+		this.noOfBonda=total;
+		System.out.println("total==="+total);
+	}
+	
+	public Bonda(int total,String ownerName){
+		this.noOfBonda=total;
+		this.name=ownerName
+		System.out.println("total=="+total+"owner name==="+ownerName);
+	}
+}
+
+class BondaRunner{
+	
+	public static void main(String []args){
+		Bonda bonda=new Bonda(10);
+		Bonda bajji=new Bonda(100,"Ravi");
+	}
+}
+
+
+		
+	
