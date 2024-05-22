@@ -1,6 +1,6 @@
 class Parle{
 	
-	String type;
+	public String type;
 	
 	public void parleType(){
 		
