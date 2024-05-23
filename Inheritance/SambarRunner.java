@@ -5,11 +5,7 @@ class SambarRunner{
 	    BeleSambar bele = new BeleSambar();
 		
 		bele.sambarTotal();
-		bele.totalIngredients();
-		bele.sambarPrice();
-		bele.total();
-		bele.ingredients();
-		bele.price();
+		bele.samb();
 		
 	}
 }
