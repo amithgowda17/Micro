@@ -9,4 +9,5 @@ class GodSon extends GodFather{
 		System.out.println("the name of the god is==="+this.godName);
 		super.godName=godName;
 	}
+
 }

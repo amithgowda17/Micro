@@ -1,6 +1,6 @@
 class King{
 	
-	int noOfPeople;
+	public int noOfPeople;
 	
 	public void total(){
 		
