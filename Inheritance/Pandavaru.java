@@ -7,6 +7,7 @@ class Pandavaru{
 		Arjuna arjuna=new Arjuna();
 		Nakula nakula=new Nakula();
 		Sahadeva sahadeva=new Sahadeva();
+		
 		yudhis.pandavaru();
 		bhima.pandavaru();
 		arjuna.pandavaru();
