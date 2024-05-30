@@ -11,16 +11,16 @@ class Bottle{
 		System.out.println("this is expilict cost="+rate);
 		
 		int data=65;
-        char name=(char)data;
-        System.out.println("this is convertion of int to char=="+name);	 
+                char name=(char)data;
+                System.out.println("this is convertion of int to char=="+name);	 
 	 
-        char nameLetter='c';
-	    int valueOfTheLetter=nameLetter;
-	    System.out.println("this is convertion of char to int==="+valueOfTheLetter);	 
+               char nameLetter='c';
+	       int valueOfTheLetter=nameLetter;
+	       System.out.println("this is convertion of char to int==="+valueOfTheLetter);	 
 	 
-	    boolean ifBottle=false;
-	    int bottleValue = ifBottle ?1:0 ;
-	    System.out.println("this is convertion of boolean  to int==="+bottleValue);	 
+	      boolean ifBottle=false;
+	      int bottleValue = ifBottle ?1:0 ;
+	      System.out.println("this is convertion of boolean  to int==="+bottleValue);	 
 	 
 	}
 }
