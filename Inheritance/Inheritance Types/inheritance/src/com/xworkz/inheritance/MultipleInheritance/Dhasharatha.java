@@ -6,5 +6,4 @@ public class Dhasharatha {
 		
 		System.out.println("this is grand father dhasharatha class");
 	}
-
 }
