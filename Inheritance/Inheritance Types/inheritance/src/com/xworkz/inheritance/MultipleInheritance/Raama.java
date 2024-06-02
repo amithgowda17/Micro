@@ -6,5 +6,4 @@ public class Raama extends Dhasharatha{
 		
 		System.out.println("this is father raama class");
 	}
-	
 }

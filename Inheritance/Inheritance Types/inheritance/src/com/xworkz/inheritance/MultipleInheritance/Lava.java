@@ -7,5 +7,4 @@ public class Lava extends Raama{
 		System.out.println("this is son lava class");
 
 	}
-
 }

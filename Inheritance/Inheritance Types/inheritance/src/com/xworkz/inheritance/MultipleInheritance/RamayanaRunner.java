@@ -9,8 +9,6 @@ public class RamayanaRunner {
 		lava.son();
 		lava.father();
 		lava.grandFather();
-
-
 	}
 
 }
