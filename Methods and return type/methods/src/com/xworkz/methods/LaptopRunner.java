@@ -4,7 +4,7 @@ public class LaptopRunner {
 	
 	public static void main(String []args) {
 		
-		Laptop laptop = new Laptop();
+		com.xworkz.methods.Laptop laptop = new com.xworkz.methods.Laptop();
 		
 		laptop.name();
 		
