@@ -9,8 +9,6 @@ public class BottleRunner {
 		bottle.number();
 		
 		bottle.availability(false);
-		
-
 	}
 
 }

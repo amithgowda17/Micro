@@ -24,6 +24,4 @@ public class Bottle {
 		System.out.println("does water available==="+this.ifWaterAvailable);
 	}
 	
-	
-
 }
