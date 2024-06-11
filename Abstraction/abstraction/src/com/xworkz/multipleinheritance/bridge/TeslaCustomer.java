@@ -128,39 +128,47 @@ public class TeslaCustomer extends Tesla implements TeslaCarTyre,TeslaEngine, Te
 		
 	}
 	
+	@Override
 	public void total() {
 		System.out.println("this is total method in car");
 	}
 	
+	@Override
 	public void total1() {
 		System.out.println("this is total1 method in car");
 	}
 	
+	@Override
 	public String companyNameOfBody() {
 		System.out.println("this is companyNameOfBody method in car");
 	    return null;
 	}
 	
+	@Override
 	public String ownerName() {
 		System.out.println("this is ownerName method in car");
 		return null;
 	}
 	
+	@Override
 	public boolean ifAvailable() {
 		System.out.println("this is ifAvailable method in car");
 		return false;
 	}
 	
+	@Override
 	public long phoneNumber() {
 		System.out.println("this is phone number method in car");
 		return 0;
 	}
 	
+	@Override
 	public double gst() {
 		System.out.println("this is gst method in car");
 		return 0.0d;
 	}
 	
+	@Override
 	public float priceOfBody() {
 		System.out.println("this is priceOfBody method");
 		return 0.0f;
