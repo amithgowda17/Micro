@@ -22,8 +22,6 @@ public class CatsRunner {
 		tiger.pets();
 		tiger.foody();
 		
-		
-
 	}
 
 }
