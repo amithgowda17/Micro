@@ -112,12 +112,12 @@ public class MuttonSambar extends Spices implements Water,Mutton,Oil,Gas {
 	
 	public double gst() {
 		System.out.println("this is gst method of mutton sambar class");
-	    return 0.000000d;
+	    return 0.0d;
 	}
 	
 	public float priceOfSpices() {
 		System.out.println("this is price method of mutton sambar class");
-	    return 0.000f;
+	    return 0.0f;
 	}
 	
 	public long ownerNumber() {
