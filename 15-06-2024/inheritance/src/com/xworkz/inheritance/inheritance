@@ -1,0 +1,17 @@
+Inheritance is one of the object oriented programming language
+>Acquring the properties from parent class to the child class is known
+as inheritance
+
+>parents class properties can be inherited to child class using extends keyword
+
+>Inheritance is divided into 5 types
+
+>Single Inheritance=Acquring the properties from single parent class to the single child class
+
+>Multilevel Inheritance=Acquring the properties from parent class(Super class) to the child class(parent class),this child class inherits its properties to other class(child class) 
+
+>Hierarchial Inheritance=Acquring the properties from single parent class to the multiple child class
+
+>Multiple Inheritance=Acquring the properties from multiple parent class to the single child class
+
+>Hybrid Inheritance

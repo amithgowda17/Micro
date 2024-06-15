@@ -1,0 +1,13 @@
+polymorphism is one of the oops concept of java
+
+Having same name but differents forms is known as polymorphism
+
+it consists 2 types:
+
+
+>Overloading=having same method or constructor name but different 
+parameters is known as overloading
+
+>Overriding=when child class inherits the properties from parent class,
+then the method of child class overrides the method of parent class if
+it is same name
