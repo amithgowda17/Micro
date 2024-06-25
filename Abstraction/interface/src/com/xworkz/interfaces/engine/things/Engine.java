@@ -1,6 +1,7 @@
 package com.xworkz.interfaces.engine.things;
 
 public interface Engine {
+	 void name();
 
 	default int noOfEngine() {
 		int total=10;
