@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class LaptopsCollectionRunner {
+public class TwoDigitRunner {
 	
 	public static void main(String[] args) {
 		
