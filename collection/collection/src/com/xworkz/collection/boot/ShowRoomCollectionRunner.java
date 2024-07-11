@@ -41,8 +41,8 @@ public class ShowRoomCollectionRunner {
 		
 		Collections.sort(list,comparator);
 		
-		for (ShowRoomCollectionDto showRoomCollectionDto : list) {
-			System.out.println(showRoomCollectionDto);
+		for (ShowRoomCollectionDto showRoomCollection : list) {
+			System.out.println(showRoomCollection);
 		}
 		
 	}

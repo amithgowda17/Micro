@@ -16,8 +16,8 @@ public class KaranatakaCmCollectionRunner {
 		KarnatakaCmCollectionDto dto1 = new KarnatakaCmCollectionDto(76, "Yeddiyurappa", "Shimogga");
 		KarnatakaCmCollectionDto dto2 = new KarnatakaCmCollectionDto(65, "Kumarswamy", "Channapatna");
 		KarnatakaCmCollectionDto dto3 = new KarnatakaCmCollectionDto(69, "Bangarappa", "Shorabha");
-		
-	Comparator<KarnatakaCmCollectionDto> comparator = new Comparator<KarnatakaCmCollectionDto>() {
+
+		Comparator<KarnatakaCmCollectionDto> comparator = new Comparator<KarnatakaCmCollectionDto>() {
 
 			@Override
 			public int compare(KarnatakaCmCollectionDto o1, KarnatakaCmCollectionDto o2) {
@@ -35,10 +35,10 @@ public class KaranatakaCmCollectionRunner {
 		list.add(dto3);
 		list.add(dto1);
 
-		Collections.sort(list,comparator);
+		Collections.sort(list, comparator);
 
-		for (KarnatakaCmCollectionDto colldto : list) {
-			System.out.println(colldto);
+		for (KarnatakaCmCollectionDto coll : list) {
+			System.out.println(coll);
 		}
 
 	}
