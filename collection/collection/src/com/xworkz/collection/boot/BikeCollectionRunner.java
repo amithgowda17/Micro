@@ -1,7 +1,9 @@
 package com.xworkz.collection.boot;
 
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 import com.xworkz.collection.dto.BikeCollectionDto;
 
@@ -15,30 +17,36 @@ public class BikeCollectionRunner {
 		BikeCollectionDto dto3 = new BikeCollectionDto(500000, "BMW", "RT Nagar", 350);
 		BikeCollectionDto dto4 = new BikeCollectionDto(350000, "Royal enfield", "Basveshwar Nagar",390);
 		
-		Collection<BikeCollectionDto> collection=new ArrayList<BikeCollectionDto>();
 		
-		System.out.println("size of the methods==="+collection.size());
+		Comparator<BikeCollectionDto> comparator=new Comparator<BikeCollectionDto>() {
+			
+			@Override
+			public int compare(BikeCollectionDto o1, BikeCollectionDto o2) {
+				if(o1.getPrice()>o2.getPrice()) {
+					return 1;
+				}
+				return -1;
+			}
+		};
 		
-		collection.add(dto);
-		collection.add(dto1);
-		collection.add(dto2);
-		collection.add(dto3);
-		collection.add(dto4);
 		
-		for (BikeCollectionDto bikeCollectionDto : collection) {
+		List<BikeCollectionDto> list=new ArrayList<BikeCollectionDto>();
+		
+		System.out.println("size of the methods==="+list.size());
+		
+		list.add(dto);
+		list.add(dto1);
+		list.add(dto2);
+		list.add(dto3);
+		list.add(dto4);
+		
+		Collections.sort(list,comparator);
+		
+		for (BikeCollectionDto bikeCollectionDto : list) {
 			System.out.println("colection==="+bikeCollectionDto.toString());
 		}
 		
-		System.out.println("size of the methods==="+collection.size());
-		
-		collection.remove(dto3);
-		
-		System.out.println("size of the methods==="+collection.size());
-		
-		collection.clear();
-		
-		System.out.println("size of the methods==="+collection.size());
-		
+	
 	
 	}
 

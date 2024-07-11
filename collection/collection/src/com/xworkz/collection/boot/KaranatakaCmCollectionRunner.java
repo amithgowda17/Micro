@@ -17,7 +17,7 @@ public class KaranatakaCmCollectionRunner {
 		KarnatakaCmCollectionDto dto2 = new KarnatakaCmCollectionDto(65, "Kumarswamy", "Channapatna");
 		KarnatakaCmCollectionDto dto3 = new KarnatakaCmCollectionDto(69, "Bangarappa", "Shorabha");
 		
-		Comparator<KarnatakaCmCollectionDto> comparator = new Comparator<KarnatakaCmCollectionDto>() {
+	Comparator<KarnatakaCmCollectionDto> comparator = new Comparator<KarnatakaCmCollectionDto>() {
 
 			@Override
 			public int compare(KarnatakaCmCollectionDto o1, KarnatakaCmCollectionDto o2) {

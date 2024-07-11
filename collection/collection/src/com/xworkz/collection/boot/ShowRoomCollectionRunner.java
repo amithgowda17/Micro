@@ -21,7 +21,7 @@ public class ShowRoomCollectionRunner {
 
 			@Override
 			public int compare(ShowRoomCollectionDto o1, ShowRoomCollectionDto o2) {
-				if (o1.getPrice() < o2.getPrice()) {
+				if (o1.getPrice() > o2.getPrice()) {
 					return 1;
 				}
 				return -1;

@@ -1,6 +1,6 @@
 package com.xworkz.collection.dto;
 
-public class DressCollection {
+public class DressCollection implements Comparable<DressCollection>{
 	
 	private int noOfDress;
 	private String shopName;
@@ -45,6 +45,14 @@ public class DressCollection {
 	public String toString() {
 		return "DressCollection [noOfDress=" + noOfDress + ", shopName=" + shopName + ", price=" + price + ", address="
 				+ address + "]";
+	}
+
+	@Override
+	public int compareTo(DressCollection o) {
+		if(this.getPrice()>o.getPrice()) {
+			return 1;
+		}
+		return -1;
 	}
 
 }
