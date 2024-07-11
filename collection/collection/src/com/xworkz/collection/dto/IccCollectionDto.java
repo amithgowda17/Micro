@@ -1,6 +1,6 @@
 package com.xworkz.collection.dto;
 
-public class IccCollectionDto {
+public class IccCollectionDto implements Comparable<IccCollectionDto>{
 	
 	private int iccRankings;
 	private String teamName;
@@ -42,6 +42,14 @@ public class IccCollectionDto {
 	public String toString() {
 		return "IccCollectionDto [iccRankings=" + iccRankings + ", teamName=" + teamName + ", captainName="
 				+ captainName + "]";
+	}
+
+	@Override
+	public int compareTo(IccCollectionDto o) {
+		if(this.getIccRankings()>o.getIccRankings()) {
+			return 1;
+		}
+		return -1;
 	}
 	
 	
