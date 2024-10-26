@@ -8,7 +8,6 @@ public class PuneethRajkumarRunner {
 		
 		PuneethRajkumar puneeth= new PuneethRajkumar("Appu","Abhi","Veera kannadiga","Mourya","Akash","Namma Basava","Ajay");
 		
-		PuneethRajkumar appu=new PuneethRajkumar("Arasu","Bindass","Milana","Vamshi","Raj","Raam","Pruthvi",30);
 		
 		puneeth.setMovies1("Appu");
 		puneeth.setMovies2("Abhi");
@@ -17,6 +16,9 @@ public class PuneethRajkumarRunner {
 		puneeth.setMovies5("Akash");
 		puneeth.setMovies6("Namma Basava");
 		puneeth.setMovies7("Ajay");
+		
+		
+		PuneethRajkumar appu=new PuneethRajkumar("Arasu","Bindass","Milana","Vamshi","Raj","Raam","Pruthvi",30);
 		
 		appu.setMovies8("Arasu");
 		appu.setMovies9("Milana");
